@@ -1,20 +1,19 @@
 import React from 'react';
+import TodosApp from "./components/TodosApp"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <header className="container my-4">
+      <h1 className="text-center">ToDos App</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          En avant pour la todo list :)
         </a>
+        <TodosApp />
       </header>
     </div>
   );
